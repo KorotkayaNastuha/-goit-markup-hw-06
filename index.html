@@ -50,6 +50,37 @@
             <button class="button-order " type="button" data-modal-open >Заказать услугу</button>
             <div class="backdrop is-hidden" data-modal>
                 <div class="modal">
+                    <form class="form">
+                        
+                            <h2 class="modal-text">Оставьте свои данные, мы вам перезвоним</h2>
+                        <div class="form-field">   
+                             
+                            <label for="name" class="form-label">Имя</label>  
+                            <svg class="icon-person" widht="12" height="12">
+                                <use href="./img/images/symbol-defs.svg#icon-person"></use>
+                            </svg>                         
+                                <input class="form-input" type="text" name="name" id="name"/>
+                        </div>
+                        <div class="form-field">
+                            <label class="form-label"for="tel" >Телефон</label>
+                                <input class="form-input"type="text" name="tel" id="tel">
+                        </div>
+                        <div class="form-field">
+                            <label class="form-label"for="email" >Почта</label>
+                                <input class="form-input" type="text" name="email" id="email">
+                        </div>
+                        <div class="form-field-coment">
+                        <Label class="form-label" for="comment">Комментарий</Label>
+                        <textarea class="form-comment" name="comment" id=""  rows="10" placeholder="Введите текст"></textarea>
+                        </div>
+                        <div class="form-field-checkbox">
+                            <input class="form-input-checkbox" type="checkbox" name="confid" id="confid" >
+                            <label class="form-label-checkbox" for="confid">Соглашаюсь с рассылкой и принимаю <span class="terms"> Условия договора</span></label>
+                            
+                        </div>
+                        <button class="button-modal" type="button">Отправить</button>
+                    </form>
+                
                 <button class="close" data-modal-close>
                     <svg class="icon-close" widht="11" height="11">
                         <use href="./img/images/icon-close.svg#close">
