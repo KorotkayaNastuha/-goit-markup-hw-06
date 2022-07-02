@@ -285,10 +285,12 @@ textarea{
         flex-direction: column;
         margin-bottom: 28px;
         text-align: left;
+        position: relative;
         
 
 }
 .form-label{
+        position: relative;
         display: flex;
         font-weight: 400;
         font-size: 12px;
@@ -300,13 +302,15 @@ textarea{
 }
 .icon-person{
         position: absolute;
-        top: 0;
-        left: 0;
+        width: 100%;
+        top: 25%;
+        left: 12px;
         display: inline-block;
+        transform: translateY(100%);
         
 }
 .form-input{
-
+        
         width: 448px;
         height: 40px;
 
