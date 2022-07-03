@@ -384,12 +384,13 @@ textarea{
         
         color: #757575;
 }
-.form-input-checkbox:checked ~ .icon-checkbox{
+.form-input-checkbox:checked + .icon-checkbox{
         border-color: #2196F3;
         background-color: #2196F3;
         background-image:url('../img/images/vektor.svg');
         background-size: contain;
         background-origin: border-box;
+        
 }
 
 .terms{
