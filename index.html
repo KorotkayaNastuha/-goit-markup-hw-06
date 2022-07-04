@@ -85,7 +85,7 @@
                             
                             <label class="form-label-checkbox">
                                 
-                               <input class="form-input-checkbox" type="checkbox" name="confid"> 
+                               <input class="form-input-checkbox" type="checkbox" name="confid" checked> 
                             <span class="icon-checkbox"></span>                                
                                 Соглашаюсь с рассылкой и принимаю <span class="terms"> Условия договора</span>
                             </label>
@@ -96,9 +96,7 @@
                 
                 <button class="close" data-modal-close>
                     <svg class="icon-close" widht="11" height="11">
-                        <use href="./img/images/icon-close.svg#close">
-                            
-                        </use>
+                        <use href="./img/images/icon-close.svg#close"></use>
                     </svg>
                 </button>
             </div>
@@ -426,7 +424,15 @@
                     </li>
                 </ul>
             </div>
-        </div>
+        <div class="form-field-list">
+            <label for="list" class="form-label-list">Подпишитесь на рассылку</label>
+            <input class="form-input-list" type="text" name="Email" id="list"placeholder="Email" />
+            <button class="button-list" type="button">Подписаться
+
+            </button>
+    </div>        
+        
+
             </footer>  
         <script src="./js/modal.js"></script>
     
