@@ -737,6 +737,8 @@ textarea{
         border-radius: 4px;
         padding-left: 16px;
         margin-right: 10px;
+        color: rgba(255, 255, 255, 0.6);
+        
 }
 .form-input-list::placeholder{
         font-weight: 400;
@@ -748,6 +750,7 @@ textarea{
         letter-spacing: 0.03em;
         
         color: rgba(255, 255, 255, 0.6);
+        
 }
 .button-list{
         display:inline-flex;
